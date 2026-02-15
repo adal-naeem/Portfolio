@@ -11,3 +11,18 @@
 
  ye class blocks ka bg or shadow or hover shadow specify krti hai
     bg-gradient-to-br from-[#1e293b] to-[#334155] backdrop-blur-md border border-white/10 shadow-[0_10px_15px_-3px_rgba(0,0,0,0.2)] transition-all duration-300 hover:shadow-[0_20px_25px_-5px_rgba(51,65,85,0.9)]
+
+
+
+
+
+
+
+
+
+
+
+
+    git add .
+git commit -m "updated my project"
+git push origin main
