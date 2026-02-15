@@ -21,6 +21,110 @@ const Projects = () => {
             liveLink: "#",
             codeLink: "#"
         },
+        {
+            title: "E-Commerce App",
+            desc: "Full-stack shopping platform with secure payment integration.",
+            image: dd, // Dusri image use karein yahan
+            tech: ["Next.js", "MongoDB", "Stripe"],
+            liveLink: "#",
+            codeLink: "#"
+        },
+        {
+            title: "E-Commerce App",
+            desc: "Full-stack shopping platform with secure payment integration.",
+            image: dd, // Dusri image use karein yahan
+            tech: ["Next.js", "MongoDB", "Stripe"],
+            liveLink: "#",
+            codeLink: "#"
+        },
+        {
+            title: "E-Commerce App",
+            desc: "Full-stack shopping platform with secure payment integration.",
+            image: dd, // Dusri image use karein yahan
+            tech: ["Next.js", "MongoDB", "Stripe"],
+            liveLink: "#",
+            codeLink: "#"
+        },
+        {
+            title: "E-Commerce App",
+            desc: "Full-stack shopping platform with secure payment integration.",
+            image: dd, // Dusri image use karein yahan
+            tech: ["Next.js", "MongoDB", "Stripe"],
+            liveLink: "#",
+            codeLink: "#"
+        },
+        {
+            title: "E-Commerce App",
+            desc: "Full-stack shopping platform with secure payment integration.",
+            image: dd, // Dusri image use karein yahan
+            tech: ["Next.js", "MongoDB", "Stripe"],
+            liveLink: "#",
+            codeLink: "#"
+        },
+        {
+            title: "E-Commerce App",
+            desc: "Full-stack shopping platform with secure payment integration.",
+            image: dd, // Dusri image use karein yahan
+            tech: ["Next.js", "MongoDB", "Stripe"],
+            liveLink: "#",
+            codeLink: "#"
+        },
+        {
+            title: "E-Commerce App",
+            desc: "Full-stack shopping platform with secure payment integration.",
+            image: dd, // Dusri image use karein yahan
+            tech: ["Next.js", "MongoDB", "Stripe"],
+            liveLink: "#",
+            codeLink: "#"
+        },
+        {
+            title: "E-Commerce App",
+            desc: "Full-stack shopping platform with secure payment integration.",
+            image: dd, // Dusri image use karein yahan
+            tech: ["Next.js", "MongoDB", "Stripe"],
+            liveLink: "#",
+            codeLink: "#"
+        },
+        {
+            title: "E-Commerce App",
+            desc: "Full-stack shopping platform with secure payment integration.",
+            image: dd, // Dusri image use karein yahan
+            tech: ["Next.js", "MongoDB", "Stripe"],
+            liveLink: "#",
+            codeLink: "#"
+        },
+        {
+            title: "E-Commerce App",
+            desc: "Full-stack shopping platform with secure payment integration.",
+            image: dd, // Dusri image use karein yahan
+            tech: ["Next.js", "MongoDB", "Stripe"],
+            liveLink: "#",
+            codeLink: "#"
+        },
+        {
+            title: "E-Commerce App",
+            desc: "Full-stack shopping platform with secure payment integration.",
+            image: dd, // Dusri image use karein yahan
+            tech: ["Next.js", "MongoDB", "Stripe"],
+            liveLink: "#",
+            codeLink: "#"
+        },
+        {
+            title: "E-Commerce App",
+            desc: "Full-stack shopping platform with secure payment integration.",
+            image: dd, // Dusri image use karein yahan
+            tech: ["Next.js", "MongoDB", "Stripe"],
+            liveLink: "#",
+            codeLink: "#"
+        },
+        {
+            title: "E-Commerce App",
+            desc: "Full-stack shopping platform with secure payment integration.",
+            image: dd, // Dusri image use karein yahan
+            tech: ["Next.js", "MongoDB", "Stripe"],
+            liveLink: "#",
+            codeLink: "#"
+        },
         
     ];
 
