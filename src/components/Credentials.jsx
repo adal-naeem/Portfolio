@@ -17,7 +17,7 @@ const Credentials = () => {
                 >
                     <h2 className="text-4xl font-bold text-[#F8FAFC] mb-3 relative inline-block after:content-[''] after:absolute after:bottom-[-0.5rem] after:left-0 after:h-[0.25rem] after:w-[3rem] after:bg-blue-500 after:rounded-full">Credentials</h2>
                     <p className="mt-4 text-[#E2E8F0] max-w-2xl mx-auto text-[16px] leading-[24px] font-normal font-['Inter',_ui-sans-serif,_system-ui,_sans-serif]">
-                        My journey of continuous learning, from academic foundations at UOG to mastering the modern React ecosystem.
+                        My journey of continuous learning, from  foundations at UOG to mastering the modern React ecosystem.
                     </p>
                 </div>
                     <div className="grid md:grid-cols-2 gap-12 items-center">
