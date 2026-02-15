@@ -61,9 +61,9 @@ const Hero = () => {
 
             {/* Text Section: Added Responsive Padding and Font Sizes */}
             <motion.div
-                initial={{ opacity: 0, y: 150 }} // Shuru mein gayab aur 50px niche
+                initial={{ opacity: 0, y: 50 }} // Shuru mein gayab aur 50px niche
                 whileInView={{ opacity: 1, y: 0 }} // Jab scroll karke nazar aaye toh opacity 1 aur apni jagah (0) par
-                viewport={{ once: true, amount: 0.2 }} // Sirf ek baar ho, aur jab 20% nazar aaye tab shuru ho
+                viewport={{ once: true, amount: 0.1 }} // Sirf ek baar ho, aur jab 20% nazar aaye tab shuru ho
                 transition={{ duration: 0.9, ease: "easeOut" }} // Speed aur smoothness
                 className="text-center w-full max-w-2xl mx-auto px-4 pb-20 -mt-10 sm:mt-0"
             >
