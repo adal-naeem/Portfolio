@@ -23,7 +23,7 @@ const Contact = () => {
 
 
                 <motion.div
-                                initial={{ opacity: 0, y: 25 }} // Shuru mein gayab aur 50px niche
+                                initial={{ opacity: 0, y: 50 }} // Shuru mein gayab aur 50px niche
                                 whileInView={{ opacity: 1, y: 0 }} // Jab scroll karke nazar aaye toh opacity 1 aur apni jagah (0) par
                                 viewport={{ once: true, amount: 0.2 }} // Sirf ek baar ho, aur jab 20% nazar aaye tab shuru ho
                                 transition={{ duration: 0.9, ease: "easeOut" }} >
