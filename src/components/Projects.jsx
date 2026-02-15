@@ -38,16 +38,20 @@ const Projects = () => {
                     </p>
                 </div>
 
-                <motion.div
-                    initial={{ opacity: 0, y: 100 }} // Shuru mein gayab aur 50px niche
-                    whileInView={{ opacity: 1, y: 0 }} // Jab scroll karke nazar aaye toh opacity 1 aur apni jagah (0) par
-                    viewport={{ once: true, amount: 0.2 }} // Sirf ek baar ho, aur jab 20% nazar aaye tab shuru ho
-                    transition={{ duration: 0.5, ease: "easeOut" }} >
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-                        {projectsData.map((project, index) => (
-                            <ProjectCard key={index} {...project} index={index} />
-                        ))}
-                    </div></motion.div>
+  {projectsData.map((project, index) => (
+    <motion.div
+      key={index}  // Har card ka unique key
+      initial={{ opacity: 0, y: 150 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ duration: 0.5, ease: "easeOut", delay: index * 0.2 }} // Optional delay for stagger effect
+    >
+      <ProjectCard {...project} index={index} />
+    </motion.div>
+  ))}
+</div>
+
             </div>
         </section>
     );

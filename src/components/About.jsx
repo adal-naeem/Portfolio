@@ -21,30 +21,41 @@ const About = () => {
                     </p>
                 </div>
 
-                <motion.div 
-                initial={{ opacity: 0, y: 150 }} // Shuru mein gayab aur 50px niche
-                whileInView={{ opacity: 1, y: 0 }} // Jab scroll karke nazar aaye toh opacity 1 aur apni jagah (0) par
-                viewport={{ once: true, amount: 0.2 }} // Sirf ek baar ho, aur jab 20% nazar aaye tab shuru ho
-                transition={{ duration: 0.5, ease: "easeOut" }} // Speed aur smoothness
-                className="grid md:grid-cols-2 gap-12 items-center">             
-                    <div
-                        className="flex justify-center order-2 md:order-1"
-                    ><div className="relative">
-                            {/* Outer Glow - Updated with #1e3c7a */}
-                            <div className="absolute -inset-1.5 bg-[#1e3c7a] rounded-2xl blur-2xl opacity-80"></div>
+                <div
+                    className="grid md:grid-cols-2 gap-12 items-center">
 
+
+
+
+                        
+                <motion.div
+                    initial={{ opacity: 0, y: 150 }} // Shuru mein gayab aur 50px niche
+                    whileInView={{ opacity: 1, y: 0 }} // Jab scroll karke nazar aaye toh opacity 1 aur apni jagah (0) par
+                    viewport={{ once: true, amount: 0.2 }} // Sirf ek baar ho, aur jab 20% nazar aaye tab shuru ho
+                    transition={{ duration: 0.5, ease: "easeOut" }} >
+                    <div className="flex justify-center order-2 md:order-1">
+                        <div className="relative">
+                            <div className="absolute -inset-1.5 bg-[#1e3c7a] rounded-2xl blur-2xl opacity-80"></div>
                             <div className="relative overflow-hidden rounded-2xl border-4 border-white/10 shadow-2xl">
                                 <img
                                     src={myPhoto}
                                     alt="Profile"
-                                    className="w-80 h-80 md:w-96 md:h-96 object-contain transition-all duration-500 hover:scale-105"
-                                />
+                                    className="w-80 h-80 md:w-96 md:h-96 object-contain transition-all duration-500 hover:scale-105" />
                             </div>
                         </div>
-                    </div>
+                    </div></motion.div>
+
+
+
+
+                    
+                <motion.div
+                    initial={{ opacity: 0, y: 150 }} // Shuru mein gayab aur 50px niche
+                    whileInView={{ opacity: 1, y: 0 }} // Jab scroll karke nazar aaye toh opacity 1 aur apni jagah (0) par
+                    viewport={{ once: true, amount: 0.2 }} // Sirf ek baar ho, aur jab 20% nazar aaye tab shuru ho
+                    transition={{ duration: 0.5, ease: "easeOut" }} >
                     <div className="order-1 md:order-2">
                         <div className="group relative bg-gradient-to-br from-[#1e293b] to-[#334155] backdrop-blur-md border border-white/10 rounded-xl p-8 shadow-2xl hover:shadow-blue-500/10 transition-all duration-300">
-                            
                             <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/5 to-purple-500/5 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
                             <div className="flex items-center mb-8 relative z-10">
@@ -72,6 +83,8 @@ const About = () => {
                         </div>
                     </div>
                 </motion.div>
+                
+         </div>
             </div>
         </section>
     );

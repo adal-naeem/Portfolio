@@ -20,17 +20,16 @@ const Credentials = () => {
                         My journey of continuous learning, from academic foundations at UOG to mastering the modern React ecosystem.
                     </p>
                 </div>
-                <motion.div
-                    initial={{ opacity: 0, y: 150 }} // Shuru mein gayab aur 50px niche
-                    whileInView={{ opacity: 1, y: 0 }} // Jab scroll karke nazar aaye toh opacity 1 aur apni jagah (0) par
-                    viewport={{ once: true, amount: 0.2 }} // Sirf ek baar ho, aur jab 20% nazar aaye tab shuru ho
-                    transition={{ duration: 0.5, ease: "easeOut" }} >
                     <div className="grid md:grid-cols-2 gap-12 items-center">
 
+
+                        <motion.div
+                                                initial={{ opacity: 0, y: 150 }} // Shuru mein gayab aur 50px niche
+                                                whileInView={{ opacity: 1, y: 0 }} // Jab scroll karke nazar aaye toh opacity 1 aur apni jagah (0) par
+                                                viewport={{ once: true, amount: 0.2 }} // Sirf ek baar ho, aur jab 20% nazar aaye tab shuru ho
+                                                transition={{ duration: 0.5, ease: "easeOut" }} >
                         {/* Left Side: Image with Glow Effect */}
-                        <div
-                            className="flex justify-center order-2 md:order-1"
-                        >
+                        <div className="flex justify-center order-2 md:order-1">
                             <div className="relative group">
                                 {/* Background Glow - Same as your profile photo glow */}
                                 <div className="absolute -inset-1.5 bg-[#1e3c7a] rounded-2xl blur-2xl opacity-80"></div>
@@ -44,9 +43,21 @@ const Credentials = () => {
                                 </div>
                             </div>
                         </div>
+                        </motion.div>
+
+
+
 
                         {/* Right Side: Info Cards */}
                         <div className="space-y-6 order-1 md:order-2">
+
+
+
+                            <motion.div
+                                                initial={{ opacity: 0, y: 150 }} // Shuru mein gayab aur 50px niche
+                                                whileInView={{ opacity: 1, y: 0 }} // Jab scroll karke nazar aaye toh opacity 1 aur apni jagah (0) par
+                                                viewport={{ once: true, amount: 0.2 }} // Sirf ek baar ho, aur jab 20% nazar aaye tab shuru ho
+                                                transition={{ duration: 0.5, ease: "easeOut" }} >
 
                             {/* 1. Contact Details */}
                             <CredentialCard title={
@@ -74,7 +85,14 @@ const Credentials = () => {
                                     } />
                                 </div>
                             </CredentialCard>
+                            </motion.div>
 
+
+                            <motion.div
+                                                initial={{ opacity: 0, y: 150 }} // Shuru mein gayab aur 50px niche
+                                                whileInView={{ opacity: 1, y: 0 }} // Jab scroll karke nazar aaye toh opacity 1 aur apni jagah (0) par
+                                                viewport={{ once: true, amount: 0.2 }} // Sirf ek baar ho, aur jab 20% nazar aaye tab shuru ho
+                                                transition={{ duration: 0.5, ease: "easeOut" }} >
                             {/* 2. Skills */}
                             <CredentialCard title={
                                 <span className="text-[#F8FAFC] text-[20px] leading-[28px] font-semibold font-['Inter',_ui-sans-serif,_system-ui,_sans-serif]">
@@ -133,6 +151,17 @@ const Credentials = () => {
                                     />
                                 </div>
                             </CredentialCard>
+                            </motion.div>
+
+
+
+
+
+                            <motion.div
+                                                initial={{ opacity: 0, y: 150 }} // Shuru mein gayab aur 50px niche
+                                                whileInView={{ opacity: 1, y: 0 }} // Jab scroll karke nazar aaye toh opacity 1 aur apni jagah (0) par
+                                                viewport={{ once: true, amount: 0.2 }} // Sirf ek baar ho, aur jab 20% nazar aaye tab shuru ho
+                                                transition={{ duration: 0.5, ease: "easeOut" }} >
 
                             {/* 3. Education */}
                             <CredentialCard title={
@@ -147,9 +176,10 @@ const Credentials = () => {
                                 </div>
                             </CredentialCard>
 
+
+                            </motion.div>
                         </div>
                     </div>
-                </motion.div>
             </div>
         </section>
     );
